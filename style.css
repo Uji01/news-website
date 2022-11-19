@@ -1,0 +1,91 @@
+body{
+    background-color: #F4F8FB;
+}
+/* navigation bar styling */
+.navbar{
+    padding:1.2% 6% 1.2% 6% !important;
+    background-color: transparent;
+}
+.logo-img{
+    width: 2% !important;
+}
+.navbar-brand{
+    font-family: 'Canva Sans',Helvetica,Arial,sans-serif;
+}
+.navbar-nav{
+    /* padding-right: 27%; */
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+.nav-item{
+    padding: 0 1.8% 0 1.8%;
+}
+
+/* horizontal rule styling */
+
+/* top section styling */
+.top{
+    padding:1.2% 6% 1.2% 6% !important;
+}
+.top-heading{
+    padding:1.1% 0 0% 0;
+}
+.top hr{
+    width: 30%;
+    font-weight: 700;
+    margin-left: 34%;
+    padding-bottom: 2%;
+}
+.card h5{
+    color:#8FC4E1;
+}
+
+/* middle section styling */
+.middle{
+    padding:1.2% 6% 1.2% 6% !important;
+    background-color: black;
+}
+.middle h1{
+    color:white;
+    padding:3% 0 3% 0;
+}
+
+
+
+/* middlle2 styling */
+.middle2{
+    padding:1.2% 6% 1.2% 6% !important;
+}
+.middle2 h1{
+    padding:3% 0 0 0;
+}
+.middle2 hr{
+    padding-bottom: 2%;
+}
+
+.bottom1{
+    padding:2% 6% 2% 6% !important;
+}
+.footer{
+    padding:6% 6% 6% 6% !important;
+    background-color: black;
+}
+.icons{
+    padding-top: 3%;
+}
+.icons a{
+    color:white;
+    padding:10px;
+}
+.footer-des{
+    color: white;
+    padding-top:2%;
+}
+
+@media (max-width:540px) {
+    .bottom1 iframe{
+        display: none;
+    }
+}
